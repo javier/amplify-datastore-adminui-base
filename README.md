@@ -4,6 +4,8 @@
 
 2. Install al the project dependencies
 
+First make sure you have gone over the preprequisites for working with amplify https://docs.amplify.aws/start/getting-started/installation/q/integration/react
+
 ```
 npm install
 ```
