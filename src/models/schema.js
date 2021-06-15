@@ -17,6 +17,20 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
+                "sentiment": {
+                    "name": "sentiment",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "spanish": {
+                    "name": "spanish",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
                 "createdAt": {
                     "name": "createdAt",
                     "isArray": false,
@@ -62,5 +76,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "4bcd34a4986f24ed625465aa4ad5f6b3"
+    "version": "62c387225a91690f26b6ed53b4c12b34"
 };

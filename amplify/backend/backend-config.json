@@ -27,5 +27,17 @@
         }
       }
     }
+  },
+  "predictions": {
+    "interpretSentiment": {
+      "providerPlugin": "awscloudformation",
+      "service": "Comprehend",
+      "interpretType": "interpretText"
+    },
+    "translateInterpret": {
+      "providerPlugin": "awscloudformation",
+      "service": "Translate",
+      "convertType": "translateText"
+    }
   }
 }
